@@ -1,0 +1,17 @@
+{
+  "name": "uniapp-setting-for-allfiles",
+  "version": "1.0.1",
+  "description": "uniapp中用于拉起安卓文件权限设置界面的工具函数，安卓11以及以上版本拉起设置所有文件权限的界面，安卓11以下则拉起app设置界面",
+  "keywords": [
+    "uniapp",
+    "utils",
+    "android",
+    "ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "beizheng",
+  "license": "ISC"
+}
