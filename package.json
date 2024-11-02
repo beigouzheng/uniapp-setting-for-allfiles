@@ -8,10 +8,21 @@
     "android",
     "ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION"
   ],
-  "main": "index.js",
+  "main": "dist/index.js",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup --config"
   },
-  "author": "beizheng",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beigouzheng/uniapp-setting-for-allfiles.git"
+  },
+  "author": "beizbeigouzhengheng",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^4.24.3"
+  }
 }
